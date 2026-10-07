@@ -10,13 +10,13 @@ int main () {
         scanf("%d", &c);
 
         if (a > b && a > c) {
-           printf("mec = %d", a);
+           printf("max = %d", a);
         }
         else if (b > a && b > c) {
- 	   printf("mec = %d", c);
+ 	   printf("max = %d", c);
         }
         else {
-           printf("mec = %d", c);
+           printf("max = %d", c);
         }
 
         return 0; 
